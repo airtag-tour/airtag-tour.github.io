@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Project AirTag</title>
+        <meta name="title" content="Project AirTag" />
+        <meta
+            name="description"
+            content="The world trip of an AirTag, captured in pictures and videos."
+        />
+        <link
+            rel="shortcut icon"
+            href="https://airtag-tour.github.io/airtag.png"
+            type="image/png"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://airtag-tour.github.io" />
+        <meta property="og:title" content="Project AirTag" />
+        <meta
+            property="og:description"
+            content="The world trip of an AirTag, captured in pictures and videos."
+        />
+        <meta
+            property="og:image"
+            content="https://airtag-tour.github.io/airtag.png"
+        />
+
+        <noscript>
+            <meta
+                http-equiv="refresh"
+                content="0; url=https://youtu.be/a3Z7zEc7AXQ"
+            />
+        </noscript>
+        <script>
+            if (localStorage.getItem('airtag')) {
+                location.href = 'https://youtu.be/a3Z7zEc7AXQ';
+                localStorage.removeItem('airtag');
+            } else {
+                location.href =
+                    'https://www.google.com/maps/d/viewer?mid=1l_odopIBtplY6Blr8Q-3zSt3yIMspw8';
+                localStorage.setItem('airtag', 'true');
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="font-family: 'Courier New', Courier, monospace">
+            loading... :)
+        </h1>
+    </body>
+</html>
